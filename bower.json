@@ -1,0 +1,25 @@
+{
+  "name": "santosa",
+  "description": "HTML Template",
+  "main": "index.html",
+  "authors": [
+    "Dsantoz"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "homepage": "https://github.com/Dsantoz/santosa",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap4": "^4.0.0"
+  }
+}

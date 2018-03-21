@@ -1,0 +1,41 @@
+{
+  "name": "santosa",
+  "version": "1.0.0",
+  "description": "Modern Workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dsantoz/santosa.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Dsantoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dsantoz/santosa/issues"
+  },
+  "homepage": "https://github.com/Dsantoz/santosa#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-connect-multi": "^1.0.8",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {}
+}
