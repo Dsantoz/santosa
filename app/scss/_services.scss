@@ -1,0 +1,72 @@
+#services {
+    padding: 180px 0;
+    text-align: center;
+
+    .list_services {
+        margin-top: 80px;   
+     
+        .content {
+            border: 1px solid $c-ef;
+            border-radius: 5px;
+            margin: 0 20px;
+
+            transition: all 0.35s ease-in-out;
+
+            .icon {
+                color: $primary;
+                padding: 60px 0;
+                font-size: 56px;
+            }
+
+            h4 {
+                color: $c-b;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+
+            p {
+                padding: 0 25px;
+                margin-bottom: 60px;
+            }
+        
+            .fa-long-arrow-alt-right {
+                 font-size: 26px;
+                 margin-bottom: 60px;
+                 opacity: 0.35;
+                 
+                 transition: all 0.35s ease-in-out;
+            }
+
+            &:hover, &:focus, &:active, {
+                margin-top: -10px;
+                border-color:rgba (0, 0, 0, 0.02);
+                box-shadow: 0 5px 28px rgba(0, 0, 0, 0.08);
+
+                .fa-long-arrow-alt-right {
+                    color: $primary;
+                    opacity: 1;
+                }
+            }
+
+        }
+
+    }// List Services
+    
+    .btn_see__all {
+        display: inline-block;
+        margin-top: 100px;
+        color: $c-b;
+        border: 1px solid $c-ef;
+        border-radius: 5px;
+        padding: 12px 35px;
+        text-decoration: none;
+
+
+        &:hover, &:active, &:focus {
+            background-color:$primary;
+            color: $w;        
+        }
+    }
+
+}
